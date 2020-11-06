@@ -153,11 +153,8 @@ tests_requirements = [
     "wget",
     "filelock",
     "black==19.10b0",
-<<<<<<< HEAD
     "wsgidav",
-=======
     "osfclient==0.0.4",
->>>>>>> add osfclient remote requirements
 ]
 
 setup(

@@ -85,7 +85,6 @@ install_requires = [
     "python-benedict>=0.21.1",
 ]
 
-
 # Extra dependencies for remote integrations
 
 gs = ["google-cloud-storage==1.19.0"]
@@ -106,7 +105,9 @@ osf = ["osfclient==0.0.4"]
 # requirements, including kerberos itself. Once all the wheels are available,
 # we can start shipping it by default.
 ssh_gssapi = ["paramiko[invoke,gssapi]>=2.7.0"]
-all_remotes = gs + s3 + azure + ssh + oss + gdrive + hdfs + webhdfs + webdav + osf
+all_remotes = (
+    gs + s3 + azure + ssh + oss + gdrive + hdfs + webhdfs + webdav + osf
+)
 
 
 # Extra dependecies to run tests

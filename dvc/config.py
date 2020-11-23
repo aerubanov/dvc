@@ -180,7 +180,7 @@ SCHEMA = {
                     **REMOTE_COMMON,
                 },
                 "osf": {
-                    "osf_username": str,
+                    "username": str,
                     "project": str,
                     "password": str,
                     **REMOTE_COMMON,
